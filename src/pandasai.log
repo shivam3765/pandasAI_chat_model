@@ -1,0 +1,101 @@
+2023-08-05 17:44:14 [INFO] Question: give the details of those employee whose salary more then 15000?
+2023-08-05 17:44:14 [INFO] Running PandasAI with openai LLM...
+2023-08-05 17:44:14 [INFO] Prompt ID: 2d46bf59-fc98-464e-8746-3c1639b560ad
+2023-08-05 17:44:17 [INFO] 
+                        Code generated:
+                        ```
+                        df[df['Salary'] > 15000]
+                        ```
+                    
+2023-08-05 17:44:17 [INFO] 
+Code running:
+```
+df[df['Salary'] > 15000]
+```
+2023-08-05 17:44:17 [INFO] Answer:                                   data_id       file_url school_id class  ...        Job Title Years Of Experience Salary Department
+2    1c62d659-d0d9-4b20-ae88-6f5e95932908  employees.csv        08  11th  ...  Project Manager                  14  17000    Product
+42   1c62d659-d0d9-4b20-ae88-6f5e95932908  employees.csv        08  11th  ...  DevOps Engineer                  13  15500    Product
+59   1c62d659-d0d9-4b20-ae88-6f5e95932908  employees.csv        08  11th  ...  DevOps Engineer                  15  16500    Product
+82   1c62d659-d0d9-4b20-ae88-6f5e95932908  employees.csv        08  11th  ...  DevOps Engineer                  14  16000    Product
+96   1c62d659-d0d9-4b20-ae88-6f5e95932908  employees.csv        08  11th  ...         Designer                  15  16500    Product
+120  1c62d659-d0d9-4b20-ae88-6f5e95932908  employees.csv        08  11th  ...  DevOps Engineer                  15  15500    Product
+123  1c62d659-d0d9-4b20-ae88-6f5e95932908  employees.csv        08  11th  ...         Designer                  14  16000    Product
+124  1c62d659-d0d9-4b20-ae88-6f5e95932908  employees.csv        08  11th  ...  DevOps Engineer                  13  15500    Product
+130  1c62d659-d0d9-4b20-ae88-6f5e95932908  employees.csv        08  11th  ...  DevOps Engineer                  13  15500    Product
+151  1c62d659-d0d9-4b20-ae88-6f5e95932908  employees.csv        08  11th  ...  DevOps Engineer                  15  16500    Product
+204  1c62d659-d0d9-4b20-ae88-6f5e95932908  employees.csv        08  11th  ...  DevOps Engineer                  13  15500    Product
+
+[11 rows x 17 columns]
+2023-08-05 17:44:17 [INFO] Executed in: 3.233492851257324s
+2023-08-05 18:33:34 [INFO] Question: give the details of those employee whose salary more then 15000?
+2023-08-05 18:33:34 [INFO] Running PandasAI with openai LLM...
+2023-08-05 18:33:34 [INFO] Prompt ID: 032009e5-6647-4b49-abab-8ca6a9977569
+2023-08-05 18:33:34 [INFO] Using cached response
+2023-08-05 18:33:34 [INFO] 
+Code running:
+```
+df[df['Salary'] > 15000]
+```
+2023-08-05 18:33:34 [INFO] Answer:                                   data_id       file_url school_id  ... Years Of Experience Salary Department
+2    0ffece0c-dbb7-4a5a-ba4f-c36ab2ef1b8f  employees.csv      1234  ...                  14  17000    Product
+42   0ffece0c-dbb7-4a5a-ba4f-c36ab2ef1b8f  employees.csv      1234  ...                  13  15500    Product
+59   0ffece0c-dbb7-4a5a-ba4f-c36ab2ef1b8f  employees.csv      1234  ...                  15  16500    Product
+82   0ffece0c-dbb7-4a5a-ba4f-c36ab2ef1b8f  employees.csv      1234  ...                  14  16000    Product
+96   0ffece0c-dbb7-4a5a-ba4f-c36ab2ef1b8f  employees.csv      1234  ...                  15  16500    Product
+120  0ffece0c-dbb7-4a5a-ba4f-c36ab2ef1b8f  employees.csv      1234  ...                  15  15500    Product
+123  0ffece0c-dbb7-4a5a-ba4f-c36ab2ef1b8f  employees.csv      1234  ...                  14  16000    Product
+124  0ffece0c-dbb7-4a5a-ba4f-c36ab2ef1b8f  employees.csv      1234  ...                  13  15500    Product
+130  0ffece0c-dbb7-4a5a-ba4f-c36ab2ef1b8f  employees.csv      1234  ...                  13  15500    Product
+151  0ffece0c-dbb7-4a5a-ba4f-c36ab2ef1b8f  employees.csv      1234  ...                  15  16500    Product
+204  0ffece0c-dbb7-4a5a-ba4f-c36ab2ef1b8f  employees.csv      1234  ...                  13  15500    Product
+
+[11 rows x 13 columns]
+2023-08-05 18:33:34 [INFO] Executed in: 0.15843558311462402s
+2023-08-05 18:38:22 [INFO] Question: give the details of those employee whose salary more then 15000?
+2023-08-05 18:38:22 [INFO] Running PandasAI with openai LLM...
+2023-08-05 18:38:22 [INFO] Prompt ID: e77efcb5-858c-468b-8b46-e014e7921ad9
+2023-08-05 18:38:22 [INFO] Using cached response
+2023-08-05 18:38:22 [INFO] 
+Code running:
+```
+df[df['Salary'] > 15000]
+```
+2023-08-05 18:38:23 [INFO] Answer:                                   data_id       file_url school_id  ... Years Of Experience Salary Department
+2    0ffece0c-dbb7-4a5a-ba4f-c36ab2ef1b8f  employees.csv      1234  ...                  14  17000    Product
+42   0ffece0c-dbb7-4a5a-ba4f-c36ab2ef1b8f  employees.csv      1234  ...                  13  15500    Product
+59   0ffece0c-dbb7-4a5a-ba4f-c36ab2ef1b8f  employees.csv      1234  ...                  15  16500    Product
+82   0ffece0c-dbb7-4a5a-ba4f-c36ab2ef1b8f  employees.csv      1234  ...                  14  16000    Product
+96   0ffece0c-dbb7-4a5a-ba4f-c36ab2ef1b8f  employees.csv      1234  ...                  15  16500    Product
+120  0ffece0c-dbb7-4a5a-ba4f-c36ab2ef1b8f  employees.csv      1234  ...                  15  15500    Product
+123  0ffece0c-dbb7-4a5a-ba4f-c36ab2ef1b8f  employees.csv      1234  ...                  14  16000    Product
+124  0ffece0c-dbb7-4a5a-ba4f-c36ab2ef1b8f  employees.csv      1234  ...                  13  15500    Product
+130  0ffece0c-dbb7-4a5a-ba4f-c36ab2ef1b8f  employees.csv      1234  ...                  13  15500    Product
+151  0ffece0c-dbb7-4a5a-ba4f-c36ab2ef1b8f  employees.csv      1234  ...                  15  16500    Product
+204  0ffece0c-dbb7-4a5a-ba4f-c36ab2ef1b8f  employees.csv      1234  ...                  13  15500    Product
+
+[11 rows x 13 columns]
+2023-08-05 18:38:23 [INFO] Executed in: 0.055841922760009766s
+2023-08-05 18:39:43 [INFO] Question: give the details of those employee whose salary more then 15000?
+2023-08-05 18:39:43 [INFO] Running PandasAI with openai LLM...
+2023-08-05 18:39:43 [INFO] Prompt ID: f2b21e69-82cf-4f46-8093-81600bc7fa8f
+2023-08-05 18:39:43 [INFO] Using cached response
+2023-08-05 18:39:43 [INFO] 
+Code running:
+```
+df[df['Salary'] > 15000]
+```
+2023-08-05 18:39:43 [INFO] Answer:                                   data_id       file_url school_id  ... Years Of Experience Salary Department
+2    0ffece0c-dbb7-4a5a-ba4f-c36ab2ef1b8f  employees.csv      1234  ...                  14  17000    Product
+42   0ffece0c-dbb7-4a5a-ba4f-c36ab2ef1b8f  employees.csv      1234  ...                  13  15500    Product
+59   0ffece0c-dbb7-4a5a-ba4f-c36ab2ef1b8f  employees.csv      1234  ...                  15  16500    Product
+82   0ffece0c-dbb7-4a5a-ba4f-c36ab2ef1b8f  employees.csv      1234  ...                  14  16000    Product
+96   0ffece0c-dbb7-4a5a-ba4f-c36ab2ef1b8f  employees.csv      1234  ...                  15  16500    Product
+120  0ffece0c-dbb7-4a5a-ba4f-c36ab2ef1b8f  employees.csv      1234  ...                  15  15500    Product
+123  0ffece0c-dbb7-4a5a-ba4f-c36ab2ef1b8f  employees.csv      1234  ...                  14  16000    Product
+124  0ffece0c-dbb7-4a5a-ba4f-c36ab2ef1b8f  employees.csv      1234  ...                  13  15500    Product
+130  0ffece0c-dbb7-4a5a-ba4f-c36ab2ef1b8f  employees.csv      1234  ...                  13  15500    Product
+151  0ffece0c-dbb7-4a5a-ba4f-c36ab2ef1b8f  employees.csv      1234  ...                  15  16500    Product
+204  0ffece0c-dbb7-4a5a-ba4f-c36ab2ef1b8f  employees.csv      1234  ...                  13  15500    Product
+
+[11 rows x 13 columns]
+2023-08-05 18:39:43 [INFO] Executed in: 0.15844106674194336s
